@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Mi cuenta">
+
+      <menu>
+          <item
+              android:id="@+id/incio"
+              android:title="Inicio"
+              android:icon="@drawable/baseline_home_25"
+              />
+
+          <item
+              android:id="@+id/perfil"
+              android:title="Perfil"
+              android:icon="@drawable/baseline_person_26"
+              />
+
+          <item
+              android:id="@+id/notificacion"
+              android:title="Notificacion"
+              android:icon="@drawable/baseline_notifications_28"
+              />
+
+      </menu>
+
+    </item>
+
+    <item
+        android:title="Otros"
+        >
+
+        <menu>
+            <item
+                android:title="Contáctanos"
+                android:icon="@drawable/baseline_contact_support_27"
+                />
+
+            <item
+                android:title="Privacidad"
+                android:icon="@drawable/baseline_privacy_tip_28"
+                />
+
+            <item
+                android:id="@+id/configuracion"
+                android:title="Configuración"
+                android:icon="@drawable/baseline_settings_29"
+                />
+        </menu>
+
+    </item>
+
+</menu>
