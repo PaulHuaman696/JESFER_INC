@@ -44,8 +44,8 @@
                         >
                         <ImageButton
                             android:id="@+id/btn_system"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
                             android:scaleType="fitCenter"
                             android:src="@drawable/sistema_icon"
                             android:background="@color/black"/>
@@ -53,7 +53,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Sistema"
-                            android:textSize="20dp"
+                            android:textSize="17dp"
                             android:textColor="@color/white"
                             android:textAlignment="center"
                             android:textStyle="bold"/>
@@ -71,8 +71,8 @@
                         >
                         <ImageButton
                             android:id="@+id/btn_datos"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
                             android:scaleType="fitCenter"
                             android:src="@drawable/server_icon"
                             android:background="@color/black"/>
@@ -80,7 +80,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Datos"
-                            android:textSize="20dp"
+                            android:textSize="17dp"
                             android:textColor="@color/white"
                             android:textAlignment="center"
                             android:textStyle="bold"/>
@@ -106,8 +106,8 @@
                         >
                         <ImageButton
                             android:id="@+id/btn_marketing"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
                             android:scaleType="fitCenter"
                             android:src="@drawable/robot_icon"
                             android:background="@color/black"/>
@@ -115,7 +115,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Marketing"
-                            android:textSize="20dp"
+                            android:textSize="17dp"
                             android:textColor="@color/white"
                             android:textAlignment="center"
                             android:textStyle="bold"/>
@@ -133,8 +133,8 @@
 
                         <ImageButton
                             android:id="@+id/btn_comunicacion"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
                             android:background="@color/black"
                             android:scaleType="fitCenter"
                             android:src="@drawable/red_icon" />
@@ -143,7 +143,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Comunicación"
-                            android:textSize="20dp"
+                            android:textSize="17dp"
                             android:textColor="@color/white"
                             android:textAlignment="center"
                             android:textStyle="bold"/>
@@ -170,8 +170,8 @@
                         >
                         <ImageButton
                             android:id="@+id/btn_course"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
                             android:scaleType="fitCenter"
                             android:src="@drawable/user_pc_icon"
                             android:background="@color/black"/>
@@ -179,7 +179,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Cursos"
-                            android:textSize="20dp"
+                            android:textSize="17dp"
                             android:textColor="@color/white"
                             android:textAlignment="center"
                             android:textStyle="bold"/>
@@ -196,8 +196,8 @@
                         >
                         <ImageButton
                             android:id="@+id/btn_notice"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
                             android:scaleType="fitCenter"
                             android:src="@drawable/notice_icon"
                             android:background="@color/black"/>
@@ -205,7 +205,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Noticias"
-                            android:textSize="20dp"
+                            android:textSize="17dp"
                             android:textColor="@color/white"
                             android:textAlignment="center"
                             android:textStyle="bold"/>
