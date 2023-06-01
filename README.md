@@ -20,7 +20,7 @@ te lleva una ventana donde se encuentra una barra de Menu, en la parte inferior 
 [![Pantalla-Inicial.jpg](https://i.postimg.cc/yxfVgbrw/Pantalla-Inicial.jpg)](https://postimg.cc/y3Zq2vKP)
 [![Menu-Lista.jpg](https://i.postimg.cc/SsdBKzns/Menu-Lista.jpg)](https://postimg.cc/627jjqLJ)
 
-## Requisitos Previos
+## Requisitos previos 
 
 - Sistema operativo móvil compatible con (Android)
 - Cualquier versión de Android
