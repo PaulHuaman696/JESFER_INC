@@ -1,8 +1,8 @@
-# JEFER.INC(Acronimo de Jesus Y Efer )
-Una empresa ficctia dedica al servicio Electrónico, servicios como Venta, Cursos y Noticas son su principal funcion.
+# JEFER INC. (Acronimo de Jesus Y Efer )
+Una empresa ficticia dedica al servicio Electrónico, servicios como Venta, Cursos y Noticias son su principal función.
 
 Breve descripción o resumen de la aplicación.
-Al abrir la aplicacion muestra una Splash Screen con nuestro logo (Generado por una IA), seguidamente pasa al Login no funcional.Al dar click en "Iniciar Sesión"  
+Al abrir la aplicación muestra una Splash Screen con nuestro logo (Generado por una IA), seguidamente pasa al Login funcional.Al dar click en "Iniciar Sesión"  
 te lleva una ventana donde se encuentra una barra de Menu, en la parte inferior y una pantalla de inicio con ciertas tareas.
 ## Características
 - Login de usuario
@@ -26,7 +26,7 @@ te lleva una ventana donde se encuentra una barra de Menu, en la parte inferior 
 - Cualquier versión de Android
   -Android Studio Flamingo | 2022.2.1
 ## Uso
-	Aplicacion totalmente con fines académicos.
+	Aplicación totalmente con fines académicos.
 
 ## Problemas conocidos
 - Algunas características como el tamaño puede variar respecto  al mobile.
@@ -34,7 +34,7 @@ te lleva una ventana donde se encuentra una barra de Menu, en la parte inferior 
 
 ## Contribuciones
 Trabajo Realizado por:
--Huaman Simón Paul Anderson
+-Huamán Simón Paúl Anderson
 -Tello Navarro Efer Herles
--Palomino Pardo Jesus David
+-Palomino Pardo Jesús David
 -Idelfonso Sotelo Andrew Roy

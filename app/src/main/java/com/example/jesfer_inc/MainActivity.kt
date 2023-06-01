@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         checkOrientation(resources.configuration.orientation)
+
         val drawarLayout = findViewById<DrawerLayout>(R.id.drawarLayout)
         val imgMenu = findViewById<ImageView>(R.id.imgMenu)
         val navView = findViewById<NavigationView>(R.id.navDrawar)
@@ -31,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         imgMenu.setOnClickListener{
             drawarLayout.openDrawer(GravityCompat.START)
         }
+
+
         val SeccionSystem = findViewById<ImageButton>(R.id.btn_system) //Se le asigna el id del boton sistema
         val SeccionDatos = findViewById<ImageButton>(R.id.btn_datos) //Se le asigna el id del boton datos
         val SeccionComunicacion = findViewById<ImageButton>(R.id.btn_comunicacion) //Se le asigna el id del boton comunicacion
