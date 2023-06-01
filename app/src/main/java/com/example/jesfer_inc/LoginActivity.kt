@@ -13,10 +13,13 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val editTextEmail = findViewById<EditText>(R.id.textEmail)
-        val editTextPassword = findViewById<EditText>(R.id.textPassword)
         setContentView(R.layout.activity_login)
         checkOrientation(resources.configuration.orientation)
+
+
+        val editTextEmail = findViewById<EditText>(R.id.textEmail)
+        val editTextPassword = findViewById<EditText>(R.id.textPassword)
+
         val entramenu = findViewById<Button>(R.id.btn_entrar) //Colocas el ID del boton
         entramenu.setOnClickListener (){
             val username = editTextEmail.getText().toString();
@@ -37,19 +40,20 @@ class LoginActivity : AppCompatActivity() {
     private fun isValidCredentials(username: String, password: String): Boolean {
         return username.equals("admin") && password.equals("123");
     }
-    fun MsgBox(msg: String){
+    private fun MsgBox(msg: String) {
         android.widget.Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+    }
     private fun checkOrientation(orientation: Int) {
         if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            // Establecer el modo de pantalla completa cuando está en posición horizontal
-            window.decorView.systemUiVisibility = (
-                    View.SYSTEM_UI_FLAG_FULLSCREEN or
-                            View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or
-                            View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                    )
+               // Establecer el modo de pantalla completa cuando está en posición horizontal
+                window.decorView.systemUiVisibility = (
+                        View.SYSTEM_UI_FLAG_FULLSCREEN or
+                                View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or
+                                View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        )
         } else {
-            // Restaurar el modo de pantalla normal en otras orientaciones
-            window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_VISIBLE
+                // Restaurar el modo de pantalla normal en otras orientaciones
+                window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_VISIBLE
         }
     }
 }
