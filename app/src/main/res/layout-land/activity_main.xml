@@ -12,6 +12,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="bottom"
         android:background="@color/colorPrimaryLight">
 
         <LinearLayout
@@ -24,7 +25,7 @@
 
             <ImageButton
                 android:id="@+id/imageButton6"
-                android:layout_width="82dp"
+                android:layout_width="157dp"
                 android:padding="10dp"
                 android:layout_height="match_parent"
                 android:background="@color/colorPrimary"
@@ -32,7 +33,7 @@
                 app:srcCompat="@drawable/baseline_person_26"/>
             <ImageButton
                 android:id="@+id/imgWidget"
-                android:layout_width="82dp"
+                android:layout_width="157dp"
                 android:layout_height="match_parent"
                 android:scaleType="fitCenter"
                 android:background="@color/colorPrimary"
@@ -41,7 +42,7 @@
 
             <ImageButton
                 android:id="@+id/imgCarShop"
-                android:layout_width="82dp"
+                android:layout_width="157dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/carrito_shop"
                 android:padding="10dp"
@@ -49,7 +50,7 @@
                 android:background="@color/colorPrimary"/>
             <ImageButton
                 android:id="@+id/imgHome"
-                android:layout_width="82dp"
+                android:layout_width="156dp"
                 android:layout_height="match_parent"
                 android:padding="10dp"
                 android:background="@color/colorPrimary"
@@ -60,7 +61,7 @@
                 android:scaleType="fitCenter"
                 android:padding="10dp"
                 android:src="@drawable/baseline_subject_24"
-                android:layout_width="82dp"
+                android:layout_width="156dp"
                 android:background="@color/colorPrimary"
                 android:layout_height="match_parent"/>
 
