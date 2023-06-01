@@ -7,7 +7,7 @@
     android:id="@+id/navDrawar"
     android:layout_gravity="start"
     app:menu="@menu/nav_items"
-    android:background="@color/colorPrimaryLight"
+    android:background="@color/colorPrimary"
     >
 
 </com.google.android.material.navigation.NavigationView>

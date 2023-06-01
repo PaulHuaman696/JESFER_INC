@@ -25,7 +25,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="200dp"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/logo_transparent" />
+            app:srcCompat="@drawable/logo_empresa" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
