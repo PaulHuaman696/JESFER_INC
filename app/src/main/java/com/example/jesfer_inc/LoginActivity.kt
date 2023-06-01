@@ -28,7 +28,7 @@ class LoginActivity : AppCompatActivity() {
             if(isValidCredentials(username, password)){
                 entrarMenu()
             } else {
-                MsgBox("Claves son incorrectas, pruwbw con:admin,123")
+                MsgBox("Claves son incorrectas, prueba con:admin,123")
             }
 
         }
