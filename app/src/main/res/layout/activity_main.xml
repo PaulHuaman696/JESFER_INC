@@ -21,7 +21,7 @@
             android:src="@drawable/baseline_home_25"/>
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="660dp">
+            android:layout_height="640dp">
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -43,6 +43,7 @@
                         android:gravity="center"
                         >
                         <ImageButton
+                            android:id="@+id/btn_system"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
@@ -69,6 +70,7 @@
                         android:gravity="center"
                         >
                         <ImageButton
+                            android:id="@+id/btn_datos"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
@@ -103,6 +105,7 @@
                         android:gravity="center"
                         >
                         <ImageButton
+                            android:id="@+id/btn_marketing"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
@@ -129,6 +132,7 @@
                         >
 
                         <ImageButton
+                            android:id="@+id/btn_comunicacion"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:background="@color/black"
@@ -165,6 +169,7 @@
                         android:gravity="center"
                         >
                         <ImageButton
+                            android:id="@+id/btn_course"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
@@ -190,6 +195,7 @@
                         android:gravity="center"
                         >
                         <ImageButton
+                            android:id="@+id/btn_notice"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
@@ -210,22 +216,30 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
+            android:layout_height="70dp"
             android:layout_gravity="center"
             android:background="@color/colorPrimary">
 
-
+            <ImageButton
+                android:id="@+id/imgMenu"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                android:src="@drawable/baseline_subject_24"
+                android:layout_width="99dp"
+                android:background="@color/colorPrimary"
+                android:layout_height="match_parent"/>
             <ImageButton
                 android:id="@+id/imageButton6"
-                android:layout_width="78dp"
+                android:layout_width="98dp"
                 android:padding="10dp"
                 android:layout_height="match_parent"
                 android:background="@color/colorPrimary"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/baseline_person_26"/>
+
             <ImageButton
                 android:id="@+id/imgWidget"
-                android:layout_width="78dp"
+                android:layout_width="98dp"
                 android:layout_height="match_parent"
                 android:scaleType="fitCenter"
                 android:background="@color/colorPrimary"
@@ -234,28 +248,14 @@
 
             <ImageButton
                 android:id="@+id/imgCarShop"
-                android:layout_width="79dp"
+                android:layout_width="99dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/carrito_shop"
                 android:padding="10dp"
                 android:scaleType="fitCenter"
                 android:background="@color/colorPrimary"/>
-            <ImageButton
-                android:id="@+id/imgHome"
-                android:layout_width="79dp"
-                android:layout_height="match_parent"
-                android:padding="10dp"
-                android:background="@color/colorPrimary"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/baseline_home_25" />
-            <ImageButton
-                android:id="@+id/imgMenu"
-                android:scaleType="fitCenter"
-                android:padding="10dp"
-                android:src="@drawable/baseline_subject_24"
-                android:layout_width="79dp"
-                android:background="@color/colorPrimary"
-                android:layout_height="match_parent"/>
+
+
 
 
 

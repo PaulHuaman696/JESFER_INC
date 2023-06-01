@@ -199,7 +199,14 @@
             android:layout_gravity="center"
             android:background="@color/colorPrimary">
 
-
+            <ImageButton
+                android:id="@+id/imgMenu"
+                android:scaleType="fitCenter"
+                android:padding="5dp"
+                android:src="@drawable/baseline_subject_24"
+                android:layout_width="156dp"
+                android:background="@color/colorPrimary"
+                android:layout_height="match_parent"/>
             <ImageButton
                 android:id="@+id/imageButton6"
                 android:layout_width="156dp"
@@ -208,6 +215,14 @@
                 android:background="@color/colorPrimary"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/baseline_person_26"/>
+            <ImageButton
+                android:id="@+id/imgHome"
+                android:layout_width="157dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@color/colorPrimary"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/baseline_home_25" />
             <ImageButton
                 android:id="@+id/imgWidget"
                 android:layout_width="156dp"
@@ -225,22 +240,8 @@
                 android:padding="5dp"
                 android:scaleType="fitCenter"
                 android:background="@color/colorPrimary"/>
-            <ImageButton
-                android:id="@+id/imgHome"
-                android:layout_width="157dp"
-                android:layout_height="match_parent"
-                android:padding="5dp"
-                android:background="@color/colorPrimary"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/baseline_home_25" />
-            <ImageButton
-                android:id="@+id/imgMenu"
-                android:scaleType="fitCenter"
-                android:padding="5dp"
-                android:src="@drawable/baseline_subject_24"
-                android:layout_width="156dp"
-                android:background="@color/colorPrimary"
-                android:layout_height="match_parent"/>
+
+
 
         </LinearLayout>
 
